@@ -16,6 +16,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'export',  // Add this for static export
+  basePath: '/Jasfeb14', // Add this for GitHub Pages
+  assetPrefix: '/Jasfeb14', // Add this for GitHub Pages
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
