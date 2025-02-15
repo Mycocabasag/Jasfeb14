@@ -1,0 +1,10 @@
+# Ignore dependencies and build files
+node_modules/
+.next/
+out/
+dist/
+
+# Ignore system files
+.DS_Store
+*.pem
+.env*
